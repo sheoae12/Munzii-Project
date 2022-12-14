@@ -1,0 +1,87 @@
+@font-face {
+    font-family: 'Ycomputer-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_11-01@1.0/Ycomputer-Regular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'GangwonEdu_OTFBoldA';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2201-2@1.0/GangwonEdu_OTFBoldA.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    background-color: blanchedalmond;
+}
+#munzii {
+    animation: rotate_image 2s linear infinite;
+    transform-origin: 50% 50%;
+}
+
+@keyframes rotate_image{
+    100% {
+        transform: rotate(360deg);
+    }
+}
+#title{
+    text-align: center;
+    font-size: 7vw;
+    font-family: 'Comic Sans MS';
+    font-family: 'Ycomputer-Regular'; 
+    font-weight: normal;
+    font-style: normal;
+}
+#topMenu {
+    position: relative;
+    background-color: #2d2d2d;
+    overflow: hidden;
+    text-align: center;
+    margin-top: 10px;
+    padding: 10px;
+}
+#topMenu .menuLink {
+    text-align: center;
+	text-decoration: none;
+	color: white;
+    margin: 2%;
+	width: 150px;
+	font-size: 4vw;
+	font-weight: bold;
+	font-family: "Trebuchet MS", Dotum, Arial;
+    font-family: 'Ycomputer-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_11-01@1.0/Ycomputer-Regular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+#topMenu .menuLink:hover {
+	color: red;
+	background-color: #4d4d4d;
+}
+#diary-header {
+    margin-top: 10px;
+    font-size: 80px;
+    color:#bca37d;
+    font-family: 'Brush Script MT';
+}
+#diary {
+    margin-top: 20px;
+    
+}
+#diary .each-diary {
+    text-decoration: none;
+}
+#diary .diary-date {
+    font-size: 7vw;
+    font-family: 'Ycomputer-Regular';
+    color: #404040;
+}
+#diary .diary-title {
+    color: black;
+    font-family: 'Ycomputer-Regular';
+    font-size: 3vw;
+}
+#diary .each-diary:hover {
+	color: red;
+	background-color: #4d4d4d;
+}
